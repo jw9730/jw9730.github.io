@@ -23,10 +23,19 @@ collections:
             multiple: false
       - {label: "Short biography (shown in author boxes)", name: "bio", widget: "string", required: false}
       - {label: "Full biography (shown in About widget)", name: "body", widget: "markdown", required: false}
-      - label: "Interests (shown in About widget)"
-        name: "interests"
+      - label: "Contact (shown in About widget)"
+        name: "contact"
         required: false
-        widget: "list"
+        widget: object
+        fields:
+          - label: "Entities"
+            name: "entities"
+            required: false
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: string, required: true}
+              - {label: Icon_pack, name: icon_pack, widget: string, required: true}
+              - {label: Text, name: tect, widget: string, required: true}
       - label: Social links
         name: social
         required: false
