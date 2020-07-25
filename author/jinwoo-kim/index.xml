@@ -5,23 +5,42 @@
     <link>https://jw9730.github.io/author/jinwoo-kim/</link>
       <atom:link href="https://jw9730.github.io/author/jinwoo-kim/index.xml" rel="self" type="application/rss+xml" />
     <description>Jinwoo Kim</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 26 Jul 2020 01:51:42 +0900</lastBuildDate>
     <image>
       <url>https://jw9730.github.io/images/icon_hue0fd9e3ba358321a81e7bceb2c8418ad_27653_512x512_fill_lanczos_center_2.png</url>
       <title>Jinwoo Kim</title>
       <link>https://jw9730.github.io/author/jinwoo-kim/</link>
     </image>
     
-  </channel>
-</rss>
-thor/jinwoo-kim/</link>
-    </image>
+    <item>
+      <title>PintOS</title>
+      <link>https://jw9730.github.io/project/20pintos/</link>
+      <pubDate>Sun, 26 Jul 2020 01:51:42 +0900</pubDate>
+      <guid>https://jw9730.github.io/project/20pintos/</guid>
+      <description></description>
+    </item>
     
     <item>
-      <title>Spontaneous retinal waves can generate long-range horizontal connectivity in visual cortex</title>
+      <title>Spontaneous Retinal Waves Can Generate Long-Range Horizontal Connectivity in Visual Cortex</title>
       <link>https://jw9730.github.io/publication/20jneuro/</link>
       <pubDate>Sat, 25 Jul 2020 21:51:13 +0900</pubDate>
       <guid>https://jw9730.github.io/publication/20jneuro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-Shot Korean Voice Cloning</title>
+      <link>https://jw9730.github.io/project/19tts/</link>
+      <pubDate>Sat, 25 Jul 2020 01:31:08 +0900</pubDate>
+      <guid>https://jw9730.github.io/project/19tts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naver Clova AI Hackathon: Speech</title>
+      <link>https://jw9730.github.io/project/19naverai/</link>
+      <pubDate>Fri, 24 Jul 2020 01:31:18 +0900</pubDate>
+      <guid>https://jw9730.github.io/project/19naverai/</guid>
       <description></description>
     </item>
     
