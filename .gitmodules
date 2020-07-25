@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/jw9730/jw9730.github.io.git
+	branch = master
