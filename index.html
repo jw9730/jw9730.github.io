@@ -69,6 +69,57 @@
     .where {
       color: #555;
     }
+
+    #landscape {
+      display: block;
+      width: calc(100% - 50px);
+      height: auto;
+      margin: 39px 25px 0;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+      cursor: ew-resize;
+      touch-action: pan-y;
+    }
+
+    .mh-controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 6px;
+      margin: 10px 25px 0;
+    }
+
+    .mh-controls[hidden] {
+      display: none;
+    }
+
+    .mh-controls button {
+      padding: 3px 10px;
+      border: 1px solid #c9c6c1;
+      border-radius: 4px;
+      background: #fbfaf9;
+      color: #333;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.4;
+      cursor: pointer;
+    }
+
+    .mh-controls button:hover {
+      border-color: #999;
+      background: #fff;
+    }
+
+    .mh-controls button:active,
+    .mh-controls button[aria-pressed="true"] {
+      border-color: #888;
+      background: #e9e7e4;
+    }
+
+    .mh-controls button:focus-visible {
+      outline: 2px solid #555;
+      outline-offset: 1px;
+    }
   </style>
 
   <!-- Google tag (gtag.js) -->
@@ -326,6 +377,16 @@
     <li>TA, Samsung Research AI Expert Program, Summer 2021/2022/2023</li>
     <li>TA, Undergraduate Research Program (URP), Spring 2022/2024</li>
   </ul>
+
+  <hr>
+
+  <canvas id="landscape" width="188" height="100" role="img"
+    aria-label="Pixel-art view of a wide city, far mountains and the sea from an old apartment corridor, drifting through the day"
+    title="Drag sideways to change the time"></canvas>
+  <div class="mh-controls" data-mh-controls hidden>
+    <button type="button" data-mh-rain aria-pressed="false">start</button>
+  </div>
+  <script src="js/landscape.js"></script>
 
   <hr>
 
