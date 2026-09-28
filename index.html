@@ -10,10 +10,61 @@
   <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
   <style>
     body {
-      max-width: 670px;
+      max-width: 615px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-size: 16px;
+      line-height: normal;
       margin: 20px auto;
       padding: 0 20px;
       background-color: #F4F3F2;
+    }
+
+    sup {
+      line-height: 0;
+    }
+
+    h2 {
+      margin: 62px 25px 20px;
+      padding: 0;
+      border-bottom: 1px solid #555;
+      color: #555;
+      font-size: 16px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    hr {
+      margin: 39px 25px;
+      border: 0;
+      border-top: 1px solid #555;
+    }
+
+    .pub {
+      margin: 16px 0;
+      color: #555;
+    }
+
+    .pub > div + div {
+      margin-top: 5px;
+    }
+
+    .pub + .pub {
+      margin-top: 24px;
+    }
+
+    .pub .title {
+      color: #000;
+    }
+
+    /* One item per line, with a little space between items */
+    ul.items {
+      list-style: none;
+      margin: 16px 0;
+      padding: 0;
+    }
+
+    ul.items > li + li {
+      margin-top: 5px;
     }
   </style>
 
@@ -59,121 +110,138 @@
     diffusions, and flows.
     <br><br>
     Recently, I am focused on flow language models, latent reasoning, synthetic data, and vision pretraining.
-    <br><br>
   </p>
 
   <h2>Experience</h2>
 
-  <p>
-    <b>KAIST</b> - Expert Research Personnel (<a
-      href="https://en.wikipedia.org/wiki/Conscription_in_South_Korea">what?</a>), 03/2026 &ndash; 02/2027<br>
-    <b>New York University</b> - Visiting Scholar, 11/2025 &ndash; 01/2026<br>
-    <b>LG AI Research</b> - Research Intern, 2022
-  </p>
+  <ul class="items">
+    <li>
+      KAIST - Expert Research Personnel (<a
+        href="https://en.wikipedia.org/wiki/Conscription_in_South_Korea">what?</a>), 03/2026 &ndash; 02/2027
+    </li>
+    <li>New York University - Visiting Scholar, 11/2025 &ndash; 01/2026</li>
+    <li>LG AI Research - Research Intern, 2022</li>
+  </ul>
 
   <h2>Selected Papers</h2>
 
-  <p>
-    <b>Thinking with Looped Flows</b><br>
-    Ayhan Suleymanzade, Chanhyuk Lee, Floor Eijkelboom, Nicholas M. Boffi,
-    İsmail İlkan Ceylan<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    arXiv, 2026<br>
-    <a href="https://arxiv.org/abs/2609.11801">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">Thinking with Looped Flows</div>
+    <div>
+      Ayhan&nbsp;Suleymanzade, Chanhyuk&nbsp;Lee, Floor&nbsp;Eijkelboom, Nicholas&nbsp;M.&nbsp;Boffi,
+      İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>arXiv 2026</div>
+    <div><a href="https://arxiv.org/abs/2609.11801">paper</a></div>
+  </div>
 
-  <p>
-    <b>MUX: Continuous Reasoning via Multiplexed Tokens</b><br>
-    Ayhan Suleymanzade, Halil Alperen Gozeten, Michael Bronstein, İsmail İlkan Ceylan<sup>&dagger;</sup>,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    NeurIPS, 2026. <span style="color: red;">Spotlight (1%)</span><br>
-    <a href="https://arxiv.org/abs/2607.18264">paper</a> <a href="https://github.com/MisakiTaro0414/mux">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">MUX: Continuous Reasoning via Multiplexed Tokens</div>
+    <div>
+      Ayhan&nbsp;Suleymanzade, Halil&nbsp;Alperen&nbsp;Gozeten, Michael&nbsp;Bronstein, İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2026 <span style="color: red;">Spotlight (1%)</span></div>
+    <div><a href="https://arxiv.org/abs/2607.18264">paper</a> <a href="https://github.com/MisakiTaro0414/mux">code</a></div>
+  </div>
 
-  <p>
-    <b>Flow Map Language Models: One-step Language Modeling via Continuous Denoising</b><br>
-    Chanhyuk Lee, Jaehoon Yoo, Manan Agarwal, Sheel Shah, Jerry Huang, Aditi Raghunathan,<br>
-    Seunghoon Hong, Nicholas M. Boffi<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    NeurIPS, 2026<br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Spotlight</span><br>
-    <a href="https://arxiv.org/abs/2602.16813">paper</a> <a href="https://github.com/david3684/flm">code</a>
-    <a href="https://one-step-lm.github.io/blog/index.html">blog</a>
-  </p>
+  <div class="pub">
+    <div class="title">Flow Map Language Models: One-step Language Modeling via Continuous Denoising</div>
+    <div>
+      Chanhyuk&nbsp;Lee, Jaehoon&nbsp;Yoo, Manan&nbsp;Agarwal, Sheel&nbsp;Shah, Jerry&nbsp;Huang, Aditi&nbsp;Raghunathan,
+      Seunghoon&nbsp;Hong, Nicholas&nbsp;M.&nbsp;Boffi<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2026 / COLM NonAR-LM Workshop 2026 <span style="color: red;">Spotlight</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2602.16813">paper</a> <a href="https://github.com/david3684/flm">code</a>
+      <a href="https://one-step-lm.github.io/blog/index.html">blog</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Self-conditioned Flow Map Language Models via Fixed-point Flows</b><br>
-    Jaehoon Yoo*, Wonjung Kim*, Floor Eijkelboom, Chanhyuk Lee, Nicholas M. Boffi,<br>
-    Seunghoon Hong<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Oral</span><br>
-    <a href="https://arxiv.org/abs/2607.00714">paper</a> <a href="https://github.com/Ugness/self-conditioned-fmlm">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Self-conditioned Flow Map Language Models via Fixed-point Flows</div>
+    <div>
+      Jaehoon&nbsp;Yoo*, Wonjung&nbsp;Kim*, Floor&nbsp;Eijkelboom, Chanhyuk&nbsp;Lee, Nicholas&nbsp;M.&nbsp;Boffi,
+      Seunghoon&nbsp;Hong<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>COLM NonAR-LM Workshop 2026 <span style="color: red;">Oral</span></div>
+    <div><a href="https://arxiv.org/abs/2607.00714">paper</a> <a href="https://github.com/Ugness/self-conditioned-fmlm">code</a></div>
+  </div>
 
-  <p>
-    <b>Posterior Refinement: Fast Language Generation via Any-Order Flow Maps</b><br>
-    Manan Agarwal*, Sheel Shah*, Chanhyuk Lee, Jaehoon Yoo, Jerry Huang, Seunghoon Hong,<br>
-    Aditi Raghunathan, <u>Jinwoo Kim</u><sup>&dagger;</sup>, Nicholas M. Boffi<sup>&dagger;</sup><br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Spotlight</span><br>
-    <a href="https://arxiv.org/abs/2606.24773">paper</a> <a href="https://github.com/MananAg007/posterior-refinement">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Posterior Refinement: Fast Language Generation via Any-Order Flow Maps</div>
+    <div>
+      Manan&nbsp;Agarwal*, Sheel&nbsp;Shah*, Chanhyuk&nbsp;Lee, Jaehoon&nbsp;Yoo, Jerry&nbsp;Huang, Seunghoon&nbsp;Hong,
+      Aditi&nbsp;Raghunathan, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, Nicholas&nbsp;M.&nbsp;Boffi<sup>&dagger;</sup>
+    </div>
+    <div>COLM NonAR-LM Workshop 2026 <span style="color: red;">Spotlight</span></div>
+    <div><a href="https://arxiv.org/abs/2606.24773">paper</a> <a href="https://github.com/MananAg007/posterior-refinement">code</a></div>
+  </div>
 
-  <p>
-    <b>What are the Right Symmetries for Formal Theorem Proving?</b><br>
-    Krzysztof Olejniczak, Radoslav Dimitrov, Xingyue Huang, Bernardo Cuenca Grau,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup>, İsmail İlkan Ceylan<sup>&dagger;</sup><br>
-    ICML AI4Math Workshop, 2026<br>
-    <a href="https://arxiv.org/abs/2605.22257">paper</a> <a href="https://github.com/kolejnyy/rw-ensembles">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">What are the Right Symmetries for Formal Theorem Proving?</div>
+    <div>
+      Krzysztof&nbsp;Olejniczak, Radoslav&nbsp;Dimitrov, Xingyue&nbsp;Huang, Bernardo&nbsp;Cuenca&nbsp;Grau,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>
+    </div>
+    <div>ICML AI4Math Workshop 2026</div>
+    <div><a href="https://arxiv.org/abs/2605.22257">paper</a> <a href="https://github.com/kolejnyy/rw-ensembles">code</a></div>
+  </div>
 
-  <p>
-    <b>Inverting Data Transformations via Diffusion Sampling</b><br>
-    <u>Jinwoo Kim</u>*, Sékou-Oumar Kaba*, Jiyun Park, Seunghoon Hong<sup>&dagger;</sup>, Siamak
-    Ravanbakhsh<sup>&dagger;</sup><br>
-    ICML, 2026<br>
-    <a href="https://arxiv.org/abs/2602.08267">paper</a> <a href="https://github.com/jw9730/tied">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Inverting Data Transformations via Diffusion Sampling</div>
+    <div><u>Jinwoo&nbsp;Kim</u>*, Sékou-Oumar&nbsp;Kaba*, Jiyun&nbsp;Park, Seunghoon&nbsp;Hong<sup>&dagger;</sup>, Siamak&nbsp;Ravanbakhsh<sup>&dagger;</sup></div>
+    <div>ICML 2026</div>
+    <div><a href="https://arxiv.org/abs/2602.08267">paper</a> <a href="https://github.com/jw9730/tied">code</a></div>
+  </div>
 
-  <p>
-    <b>Architecture-Agnostic Invariances for Deep Learning</b><br>
-    <u>Jinwoo Kim</u><br>
-    Ph.D. Dissertation, 2026. <span style="color: red;">KAIST CoE Best Dissertation Award</span><br>
-    <a href="data/jinwookim_phd_thesis.pdf">pdf</a>
-  </p>
+  <div class="pub">
+    <div class="title">Architecture-Agnostic Invariances for Deep Learning</div>
+    <div><u>Jinwoo&nbsp;Kim</u></div>
+    <div>Ph.D. Dissertation, 2026 <span style="color: red;">KAIST CoE Best Dissertation Award</span></div>
+    <div><a href="data/jinwookim_phd_thesis.pdf">pdf</a></div>
+  </div>
 
-  <p>
-    <b>Flock: A Knowledge Graph Foundation Model via Learning on Random Walks</b><br>
-    <u>Jinwoo Kim</u>*, Xingyue Huang*, Krzysztof Olejniczak, Kyungbin Min, Michael Bronstein,<br>
-    Seunghoon Hong, İsmail İlkan Ceylan<br>
-    ICLR, 2026<br>
-    <a href="https://arxiv.org/abs/2510.01510">paper</a> <a href="https://github.com/jw9730/flock">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Flock: A Knowledge Graph Foundation Model via Learning on Random Walks</div>
+    <div>
+      <u>Jinwoo&nbsp;Kim</u>*, Xingyue&nbsp;Huang*, Krzysztof&nbsp;Olejniczak, Kyungbin&nbsp;Min, Michael&nbsp;Bronstein,
+      Seunghoon&nbsp;Hong, İsmail&nbsp;İlkan&nbsp;Ceylan
+    </div>
+    <div>ICLR 2026</div>
+    <div><a href="https://arxiv.org/abs/2510.01510">paper</a> <a href="https://github.com/jw9730/flock">code</a></div>
+  </div>
 
-  <p>
-    <b>Revisiting Random Walks for Learning on Graphs</b><br>
-    <u>Jinwoo Kim</u>, Olga Zaghen*, Ayhan Suleymanzade*, Youngmin Ryou, Seunghoon Hong<br>
-    ICLR, 2025. <span style="color: red;">Spotlight (3%)</span><br>
-    <a href="https://arxiv.org/abs/2407.01214">paper</a> <a href="https://github.com/jw9730/random-walk">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Revisiting Random Walks for Learning on Graphs</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Olga&nbsp;Zaghen*, Ayhan&nbsp;Suleymanzade*, Youngmin&nbsp;Ryou, Seunghoon&nbsp;Hong</div>
+    <div>ICLR 2025 <span style="color: red;">Spotlight (3%)</span></div>
+    <div><a href="https://arxiv.org/abs/2407.01214">paper</a> <a href="https://github.com/jw9730/random-walk">code</a></div>
+  </div>
 
-  <p>
-    <b>Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance</b><br>
-    <u>Jinwoo Kim</u>, Tien Dat Nguyen, Ayhan Suleymanzade, Hyeokjun An, Seunghoon Hong<br>
-    NeurIPS, 2023. <span style="color: red;">Spotlight (3%)</span><br>
-    <a href="https://arxiv.org/abs/2306.02866">paper</a> <a href="https://github.com/jw9730/lps">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Tien&nbsp;Dat&nbsp;Nguyen, Ayhan&nbsp;Suleymanzade, Hyeokjun&nbsp;An, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2023 <span style="color: red;">Spotlight (3%)</span></div>
+    <div><a href="https://arxiv.org/abs/2306.02866">paper</a> <a href="https://github.com/jw9730/lps">code</a></div>
+  </div>
 
-  <p>
-    <b>Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching</b><br>
-    Donggyun Kim, <u>Jinwoo Kim</u>, Seongwoong Cho, Chong Luo, Seunghoon Hong<br>
-    ICLR, 2023. <span style="color: red;">Outstanding Paper Award (0.08%)</span><br>
-    <a href="https://arxiv.org/abs/2303.14969">paper</a> <a href="https://github.com/GitGyun/visual_token_matching">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching</div>
+    <div>Donggyun&nbsp;Kim, <u>Jinwoo&nbsp;Kim</u>, Seongwoong&nbsp;Cho, Chong&nbsp;Luo, Seunghoon&nbsp;Hong</div>
+    <div>ICLR 2023 <span style="color: red;">Outstanding Paper Award (0.08%)</span></div>
+    <div><a href="https://arxiv.org/abs/2303.14969">paper</a> <a href="https://github.com/GitGyun/visual_token_matching">code</a></div>
+  </div>
 
-  <p>
-    <b>Pure Transformers are Powerful Graph Learners</b><br>
-    <u>Jinwoo Kim</u>, Tien Dat Nguyen, Seonwoo Min, Sungjun Cho, Moontae Lee, Honglak Lee<sup>&dagger;</sup>,<br>
-    Seunghoon Hong<sup>&dagger;</sup><br>
-    NeurIPS, 2022<br>
-    <a href="https://arxiv.org/abs/2207.02505">paper</a> <a href="https://github.com/jw9730/tokengt">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Pure Transformers are Powerful Graph Learners</div>
+    <div>
+      <u>Jinwoo&nbsp;Kim</u>, Tien&nbsp;Dat&nbsp;Nguyen, Seonwoo&nbsp;Min, Sungjun&nbsp;Cho, Moontae&nbsp;Lee, Honglak&nbsp;Lee<sup>&dagger;</sup>,
+      Seunghoon&nbsp;Hong<sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2022</div>
+    <div><a href="https://arxiv.org/abs/2207.02505">paper</a> <a href="https://github.com/jw9730/tokengt">code</a></div>
+  </div>
 
   <p>
     <a href="publications.html">Full list of publications</a>
@@ -181,61 +249,77 @@
 
   <h2>Honors</h2>
 
-  <p>
-    Best Ph.D. Dissertation Award, KAIST College of Engineering, 2026<br>
-    Outstanding Researcher Award, KAIST-Mila Prefrontal AI Research Center, 2024<br>
-    ELLIS Mobility Grant, ICML 2024 GRaM Workshop<br>
-    Outstanding Paper Award, ICLR 2023 (as coauthor)<br>
-    Silver Prize, Samsung Humantech Paper Award, 2023 (as coauthor)<br>
-    Qualcomm Innovation Fellowship Korea, 2022<br>
-    Excellence Award, KAIST Undergraduate Research Program, 2022 (as mentor)<br>
-    Kwanjeong Education Foundation Scholarship, 2022&ndash;2023<br>
-    KAIST Engineering Innovator Award, 2020<br>
-    National Science & Technology Scholarship, 2018&ndash;2020<br>
-    KAIST Alumni Fellowship, 2017&ndash;2020<br>
-    KAIST Presidential Fellowship, 2016&ndash;2020<br>
-    KAIST Dean's List, Spring 2016 / Fall 2016 / Spring 2018
-  </p>
+  <ul class="items">
+    <li>Best Ph.D. Dissertation Award, KAIST College of Engineering, 2026</li>
+    <li>Outstanding Researcher Award, KAIST-Mila Prefrontal AI Research Center, 2024</li>
+    <li>ELLIS Mobility Grant, ICML 2024 GRaM Workshop</li>
+    <li>Outstanding Paper Award, ICLR 2023 (as coauthor)</li>
+    <li>Silver Prize, Samsung Humantech Paper Award, 2023 (as coauthor)</li>
+    <li>Qualcomm Innovation Fellowship Korea, 2022</li>
+    <li>Excellence Award, KAIST Undergraduate Research Program, 2022 (as mentor)</li>
+    <li>Kwanjeong Education Foundation Scholarship, 2022&ndash;2023</li>
+    <li>KAIST Engineering Innovator Award, 2020</li>
+    <li>National Science & Technology Scholarship, 2018&ndash;2020</li>
+    <li>KAIST Alumni Fellowship, 2017&ndash;2020</li>
+    <li>KAIST Presidential Fellowship, 2016&ndash;2020</li>
+    <li>KAIST Dean's List, Spring 2016 / Fall 2016 / Spring 2018</li>
+  </ul>
 
   <h2>Invited Talks</h2>
 
-  <p>
-    Flow language models<br>
-    @ Discrete Diffusion Reading Group (04/2026), SNU (07/2026), POSTECH (10/2026)<br>
-    Sequence modeling with spectral mean flows<br>
-    @ BGU (12/2025)<br>
-    Architecture-agnostic invariances for deep learning<br>
-    @ Mila (07/2025, 12/2024), KAIST AI899 (05/2025), KAIST-Mila
-    Prefrontal AI Research Center (11/2024), SKKU (08/2024), POSTECH (11/2023)<br>
-    Visual token matching for few-shot dense vision<br>
-    @ KAIST-Samsung Electronics DS Division Exchange Meetup, 08/2023<br>
-    Pure transformers are powerful graph learners<br>
-    @ Microsoft USA (01/2023), NeurIPS 2022 at KAIST (11/2022), LoGaG (08/2022)<br>
-    Higher-order transformers for sets, graphs, and hypergraphs<br>
-    @ Qualcomm Korea (01/2023), KAIST Workshop (01/2022), NeurIPS Social: ML in Korea (12/2021)<br>
-    Variational autoencoders for sets<br>
-    @ Naver AI (09/2021), KCCV (09/2021)<br>
-    Retinal waves and prenatal wiring of primary visual cortex<br>
-    @ Society for Neuroscience, 10/2019
-  </p>
+  <ul class="items">
+    <li>
+      Flow language models<br>
+      @ Discrete Diffusion Reading Group (04/2026), SNU (07/2026), POSTECH (10/2026)
+    </li>
+    <li>
+      Sequence modeling with spectral mean flows<br>
+      @ BGU (12/2025)
+    </li>
+    <li>
+      Architecture-agnostic invariances for deep learning<br>
+      @ Mila (07/2025, 12/2024), KAIST AI899 (05/2025), KAIST-Mila
+      Prefrontal AI Research Center (11/2024), SKKU (08/2024), POSTECH (11/2023)
+    </li>
+    <li>
+      Visual token matching for few-shot dense vision<br>
+      @ KAIST-Samsung Electronics DS Division Exchange Meetup, 08/2023
+    </li>
+    <li>
+      Pure transformers are powerful graph learners<br>
+      @ Microsoft USA (01/2023), NeurIPS 2022 at KAIST (11/2022), LoGaG (08/2022)
+    </li>
+    <li>
+      Higher-order transformers for sets, graphs, and hypergraphs<br>
+      @ Qualcomm Korea (01/2023), KAIST Workshop (01/2022), NeurIPS Social: ML in Korea (12/2021)
+    </li>
+    <li>
+      Variational autoencoders for sets<br>
+      @ Naver AI (09/2021), KCCV (09/2021)
+    </li>
+    <li>
+      Retinal waves and prenatal wiring of primary visual cortex<br>
+      @ Society for Neuroscience, 10/2019
+    </li>
+  </ul>
 
   <h2>Academic Services</h2>
 
-  <p>
-    Area Chair: ICLR 2027<br>
-    Workshop Area Chair: ICML 2026 GFM<br>
-    Conference Reviewer: NeurIPS, ICLR, ICML, CVPR, ICCV, AISTATS, LoG, TAG-DS, IJCNN, ACCV<br>
-    Journal Reviewer: TMLR, Neural Networks, IJCV
-  </p>
+  <ul class="items">
+    <li>Area Chair: ICLR 2027</li>
+    <li>Workshop Area Chair: ICML 2026 GFM</li>
+    <li>Conference Reviewer: NeurIPS, ICLR, ICML, CVPR, ICCV, AISTATS, LoG, TAG-DS, IJCNN, ACCV</li>
+    <li>Journal Reviewer: TMLR, Neural Networks, IJCV</li>
+  </ul>
 
   <h2>Teaching</h2>
 
-  <p>
-    TA, Computer Vision (CS576), Spring 2022/2023<br>
-    TA, Introduction to Deep Learning (CS492I/CS371), Fall 2021/2022/2023<br>
-    TA, Samsung Research AI Expert Program, Summer 2021/2022/2023<br>
-    TA, Undergraduate Research Program (URP), Spring 2022/2024
-  </p>
+  <ul class="items">
+    <li>TA, Computer Vision (CS576), Spring 2022/2023</li>
+    <li>TA, Introduction to Deep Learning (CS492I/CS371), Fall 2021/2022/2023</li>
+    <li>TA, Samsung Research AI Expert Program, Summer 2021/2022/2023</li>
+    <li>TA, Undergraduate Research Program (URP), Spring 2022/2024</li>
+  </ul>
 
   <hr>
 

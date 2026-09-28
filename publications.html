@@ -9,10 +9,45 @@
   <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
   <style>
     body {
-      max-width: 660px;
+      max-width: 615px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-size: 16px;
+      line-height: normal;
       margin: 20px auto;
       padding: 0 20px;
       background-color: #F4F3F2;
+    }
+
+    sup {
+      line-height: 0;
+    }
+
+    .pub {
+      margin: 16px 0;
+      color: #555;
+    }
+
+    .pub > div + div {
+      margin-top: 5px;
+    }
+
+    .pub + .pub {
+      margin-top: 24px;
+    }
+
+    .pub .title {
+      color: #000;
+    }
+
+    /* One item per line, with a little space between items */
+    ul.items {
+      list-style: none;
+      margin: 16px 0;
+      padding: 0;
+    }
+
+    ul.items > li + li {
+      margin-top: 5px;
     }
   </style>
 
@@ -34,264 +69,310 @@
 
   <p>*: equal contribution, <sup>&dagger;</sup>: equal advising</p>
 
-  <p>
-    <b>Look Back: Reinforcement Learning with Counterfactual World Models</b><br>
-    <u>Jinwoo Kim</u>*, Toghrul Abbasov*, Lucius E.J. Bynum, Aahlad Manas Puli,
-    Stephanie Milani,<br>
-    Hyunwoo Ryu, Seunghoon Hong, Kyunghyun Cho<sup>&dagger;</sup>,
-    Rajesh Ranganath<sup>&dagger;</sup><br>
-    Under review<br>
-  </p>
+  <div class="pub">
+    <div class="title">Look Back: Reinforcement Learning with Counterfactual World Models</div>
+    <div>
+      <u>Jinwoo&nbsp;Kim</u>*, Toghrul&nbsp;Abbasov*, Lucius&nbsp;E.J.&nbsp;Bynum, Aahlad&nbsp;Manas&nbsp;Puli,
+      Stephanie&nbsp;Milani,
+      Hyunwoo&nbsp;Ryu, Seunghoon&nbsp;Hong, Kyunghyun&nbsp;Cho<sup>&dagger;</sup>,
+      Rajesh&nbsp;Ranganath<sup>&dagger;</sup>
+    </div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>Why Does Rewriting Pretraining Data Improve Generalization?</b><br>
-    Jiyun Park*, <u>Jinwoo Kim</u>*, Kyungbin Min, Hoyeon Chang, Sohee Yang,
-    Kyunghyun Cho<sup>&dagger;</sup>,<br>
-    Seunghoon Hong<sup>&dagger;</sup><br>
-    Under review<br>
-  </p>
+  <div class="pub">
+    <div class="title">Why Does Rewriting Pretraining Data Improve Generalization?</div>
+    <div>
+      Jiyun&nbsp;Park*, <u>Jinwoo&nbsp;Kim</u>*, Kyungbin&nbsp;Min, Hoyeon&nbsp;Chang, Sohee&nbsp;Yang,
+      Kyunghyun&nbsp;Cho<sup>&dagger;</sup>,
+      Seunghoon&nbsp;Hong<sup>&dagger;</sup>
+    </div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>Large Flow Language Models</b><br>
-    Arnav Chavan*, Chanhyuk Lee*, Udbhav Bamba*, Jaehoon Yoo, Seunghoon Hong,<br>
-    Aditi Raghunathan<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    Under review, 2026<br>
-  </p>
+  <div class="pub">
+    <div class="title">Large Flow Language Models</div>
+    <div>
+      Arnav&nbsp;Chavan*, Chanhyuk&nbsp;Lee*, Udbhav&nbsp;Bamba*, Jaehoon&nbsp;Yoo, Seunghoon&nbsp;Hong,
+      Aditi&nbsp;Raghunathan<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>Asynchronous Flow Maps for Flow Language Models</b><br>
-    Chanhyuk Lee, Wonjung Kim, Patrick Pynadath, Jaehoon Yoo, Satoshi Hayakawa, Ruqi Zhang,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup>, Seunghoon Hong<sup>&dagger;</sup><br>
-    Under review, 2026<br>
-  </p>
+  <div class="pub">
+    <div class="title">Asynchronous Flow Maps for Flow Language Models</div>
+    <div>
+      Chanhyuk&nbsp;Lee, Wonjung&nbsp;Kim, Patrick&nbsp;Pynadath, Jaehoon&nbsp;Yoo, Satoshi&nbsp;Hayakawa, Ruqi&nbsp;Zhang,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, Seunghoon&nbsp;Hong<sup>&dagger;</sup>
+    </div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>Generalization in Continuous Flows for Categorical Data</b><br>
-    Manan Agarwal, <u>Jinwoo Kim</u><br>
-    Under review, 2026<br>
-  </p>
+  <div class="pub">
+    <div class="title">Generalization in Continuous Flows for Categorical Data</div>
+    <div>Manan&nbsp;Agarwal, <u>Jinwoo&nbsp;Kim</u></div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>One-step Generation via Riemannian Wasserstein Gradient Flows</b><br>
-    David Li, Chanhyuk Lee, Jaehoon Yoo, Nikita Gushchin, Floor Eijkelboom, Eric Moulines,<br>
-    Maxim Panov, Alexander Korotin, Seunghoon Hong<sup>&dagger;</sup>,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    Under review, 2026<br>
-  </p>
+  <div class="pub">
+    <div class="title">One-step Generation via Riemannian Wasserstein Gradient Flows</div>
+    <div>
+      David&nbsp;Li, Chanhyuk&nbsp;Lee, Jaehoon&nbsp;Yoo, Nikita&nbsp;Gushchin, Floor&nbsp;Eijkelboom, Eric&nbsp;Moulines,
+      Maxim&nbsp;Panov, Alexander&nbsp;Korotin, Seunghoon&nbsp;Hong<sup>&dagger;</sup>,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>To Learn is to Wander: Learning Across Graphs and Tasks with Random Walks</b><br>
-    Louis Tichelman, Xingyue Huang, <u>Jinwoo Kim</u>, İsmail İlkan Ceylan<br>
-    Under review, 2026<br>
-  </p>
+  <div class="pub">
+    <div class="title">To Learn is to Wander: Learning Across Graphs and Tasks with Random Walks</div>
+    <div>Louis&nbsp;Tichelman, Xingyue&nbsp;Huang, <u>Jinwoo&nbsp;Kim</u>, İsmail&nbsp;İlkan&nbsp;Ceylan</div>
+    <div>Under review</div>
+  </div>
 
-  <p>
-    <b>Thinking with Looped Flows</b><br>
-    Ayhan Suleymanzade, Chanhyuk Lee, Floor Eijkelboom, Nicholas M. Boffi,
-    İsmail İlkan Ceylan<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    arXiv, 2026<br>
-    <a href="https://arxiv.org/abs/2609.11801">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">Thinking with Looped Flows</div>
+    <div>
+      Ayhan&nbsp;Suleymanzade, Chanhyuk&nbsp;Lee, Floor&nbsp;Eijkelboom, Nicholas&nbsp;M.&nbsp;Boffi,
+      İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>arXiv 2026</div>
+    <div><a href="https://arxiv.org/abs/2609.11801">paper</a></div>
+  </div>
 
-  <p>
-    <b>MUX: Continuous Reasoning via Multiplexed Tokens</b><br>
-    Ayhan Suleymanzade, Halil Alperen Gozeten, Michael Bronstein, İsmail İlkan Ceylan<sup>&dagger;</sup>,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    NeurIPS, 2026. <span style="color: red;">Spotlight (1%)</span><br>
-    <a href="https://arxiv.org/abs/2607.18264">paper</a> <a href="https://github.com/MisakiTaro0414/mux">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">MUX: Continuous Reasoning via Multiplexed Tokens</div>
+    <div>
+      Ayhan&nbsp;Suleymanzade, Halil&nbsp;Alperen&nbsp;Gozeten, Michael&nbsp;Bronstein, İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2026 <span style="color: red;">Spotlight (1%)</span></div>
+    <div><a href="https://arxiv.org/abs/2607.18264">paper</a> <a href="https://github.com/MisakiTaro0414/mux">code</a></div>
+  </div>
 
-  <p>
-    <b>Flow Map Language Models: One-step Language Modeling via Continuous Denoising</b><br>
-    Chanhyuk Lee, Jaehoon Yoo, Manan Agarwal, Sheel Shah, Jerry Huang, Aditi Raghunathan,<br>
-    Seunghoon Hong, Nicholas M. Boffi<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    NeurIPS, 2026<br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Spotlight</span><br>
-    <a href="https://arxiv.org/abs/2602.16813">paper</a> <a href="https://github.com/david3684/flm">code</a>
-    <a href="https://one-step-lm.github.io/blog/index.html">blog</a>
-  </p>
+  <div class="pub">
+    <div class="title">Flow Map Language Models: One-step Language Modeling via Continuous Denoising</div>
+    <div>
+      Chanhyuk&nbsp;Lee, Jaehoon&nbsp;Yoo, Manan&nbsp;Agarwal, Sheel&nbsp;Shah, Jerry&nbsp;Huang, Aditi&nbsp;Raghunathan,
+      Seunghoon&nbsp;Hong, Nicholas&nbsp;M.&nbsp;Boffi<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2026 / COLM NonAR-LM Workshop 2026 <span style="color: red;">Spotlight</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2602.16813">paper</a> <a href="https://github.com/david3684/flm">code</a>
+      <a href="https://one-step-lm.github.io/blog/index.html">blog</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Multi-View Relational Distillation for Spatial Reasoning with Vision-Language Models</b><br>
-    Kiet T. Nguyen, Hanbo Shim, <u>Jinwoo Kim</u><sup>&dagger;</sup>, Seunghoon Hong<sup>&dagger;</sup><br>
-    NeurIPS, 2026<br>
-    <a href="https://arxiv.org/abs/2608.10864">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">Multi-View Relational Distillation for Spatial Reasoning with Vision-Language Models</div>
+    <div>Kiet&nbsp;T.&nbsp;Nguyen, Hanbo&nbsp;Shim, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, Seunghoon&nbsp;Hong<sup>&dagger;</sup></div>
+    <div>NeurIPS 2026</div>
+    <div><a href="https://arxiv.org/abs/2608.10864">paper</a></div>
+  </div>
 
-  <p>
-    <b>RelAgent: LLM Agents as Data Scientists for Relational Learning</b><br>
-    Xingyue Huang, Louis Tichelman, <u>Jinwoo Kim</u>, Krzysztof Olejniczak, İsmail İlkan Ceylan<br>
-    NeurIPS, 2026<br>
-    <a href="https://arxiv.org/abs/2605.07840">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">RelAgent: LLM Agents as Data Scientists for Relational Learning</div>
+    <div>Xingyue&nbsp;Huang, Louis&nbsp;Tichelman, <u>Jinwoo&nbsp;Kim</u>, Krzysztof&nbsp;Olejniczak, İsmail&nbsp;İlkan&nbsp;Ceylan</div>
+    <div>NeurIPS 2026</div>
+    <div><a href="https://arxiv.org/abs/2605.07840">paper</a></div>
+  </div>
 
-  <p>
-    <b>Self-conditioned Flow Map Language Models via Fixed-point Flows</b><br>
-    Jaehoon Yoo*, Wonjung Kim*, Floor Eijkelboom, Chanhyuk Lee, Nicholas M. Boffi,<br>
-    Seunghoon Hong<sup>&dagger;</sup>, <u>Jinwoo Kim</u><sup>&dagger;</sup><br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Oral</span><br>
-    <a href="https://arxiv.org/abs/2607.00714">paper</a> <a href="https://github.com/Ugness/self-conditioned-fmlm">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Self-conditioned Flow Map Language Models via Fixed-point Flows</div>
+    <div>
+      Jaehoon&nbsp;Yoo*, Wonjung&nbsp;Kim*, Floor&nbsp;Eijkelboom, Chanhyuk&nbsp;Lee, Nicholas&nbsp;M.&nbsp;Boffi,
+      Seunghoon&nbsp;Hong<sup>&dagger;</sup>, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>
+    </div>
+    <div>COLM NonAR-LM Workshop 2026 <span style="color: red;">Oral</span></div>
+    <div><a href="https://arxiv.org/abs/2607.00714">paper</a> <a href="https://github.com/Ugness/self-conditioned-fmlm">code</a></div>
+  </div>
 
-  <p>
-    <b>Posterior Refinement: Fast Language Generation via Any-Order Flow Maps</b><br>
-    Manan Agarwal*, Sheel Shah*, Chanhyuk Lee, Jaehoon Yoo, Jerry Huang, Seunghoon Hong,<br>
-    Aditi Raghunathan, <u>Jinwoo Kim</u><sup>&dagger;</sup>, Nicholas M. Boffi<sup>&dagger;</sup><br>
-    COLM NonAR-LM Workshop, 2026. <span style="color: red;">Spotlight</span><br>
-    <a href="https://arxiv.org/abs/2606.24773">paper</a> <a href="https://github.com/MananAg007/posterior-refinement">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Posterior Refinement: Fast Language Generation via Any-Order Flow Maps</div>
+    <div>
+      Manan&nbsp;Agarwal*, Sheel&nbsp;Shah*, Chanhyuk&nbsp;Lee, Jaehoon&nbsp;Yoo, Jerry&nbsp;Huang, Seunghoon&nbsp;Hong,
+      Aditi&nbsp;Raghunathan, <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, Nicholas&nbsp;M.&nbsp;Boffi<sup>&dagger;</sup>
+    </div>
+    <div>COLM NonAR-LM Workshop 2026 <span style="color: red;">Spotlight</span></div>
+    <div><a href="https://arxiv.org/abs/2606.24773">paper</a> <a href="https://github.com/MananAg007/posterior-refinement">code</a></div>
+  </div>
 
-  <p>
-    <b>What are the Right Symmetries for Formal Theorem Proving?</b><br>
-    Krzysztof Olejniczak, Radoslav Dimitrov, Xingyue Huang, Bernardo Cuenca Grau,
-    <u>Jinwoo Kim</u><sup>&dagger;</sup>, İsmail İlkan Ceylan<sup>&dagger;</sup><br>
-    ICML AI4Math Workshop, 2026<br>
-    <a href="https://arxiv.org/abs/2605.22257">paper</a> <a href="https://github.com/kolejnyy/rw-ensembles">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">What are the Right Symmetries for Formal Theorem Proving?</div>
+    <div>
+      Krzysztof&nbsp;Olejniczak, Radoslav&nbsp;Dimitrov, Xingyue&nbsp;Huang, Bernardo&nbsp;Cuenca&nbsp;Grau,
+      <u>Jinwoo&nbsp;Kim</u><sup>&dagger;</sup>, İsmail&nbsp;İlkan&nbsp;Ceylan<sup>&dagger;</sup>
+    </div>
+    <div>ICML AI4Math Workshop 2026</div>
+    <div><a href="https://arxiv.org/abs/2605.22257">paper</a> <a href="https://github.com/kolejnyy/rw-ensembles">code</a></div>
+  </div>
 
-  <p>
-    <b>Inverting Data Transformations via Diffusion Sampling</b><br>
-    <u>Jinwoo Kim</u>*, Sékou-Oumar Kaba*, Jiyun Park, Seunghoon Hong<sup>&dagger;</sup>, Siamak
-    Ravanbakhsh<sup>&dagger;</sup><br>
-    ICML, 2026<br>
-    <a href="https://arxiv.org/abs/2602.08267">paper</a> <a href="https://github.com/jw9730/tied">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Inverting Data Transformations via Diffusion Sampling</div>
+    <div><u>Jinwoo&nbsp;Kim</u>*, Sékou-Oumar&nbsp;Kaba*, Jiyun&nbsp;Park, Seunghoon&nbsp;Hong<sup>&dagger;</sup>, Siamak&nbsp;Ravanbakhsh<sup>&dagger;</sup></div>
+    <div>ICML 2026</div>
+    <div><a href="https://arxiv.org/abs/2602.08267">paper</a> <a href="https://github.com/jw9730/tied">code</a></div>
+  </div>
 
-  <p>
-    <b>Architecture-Agnostic Invariances for Deep Learning</b><br>
-    <u>Jinwoo Kim</u><br>
-    Ph.D. Dissertation, 2026. <span style="color: red;">KAIST CoE Best Dissertation Award</span><br>
-    <a href="data/jinwookim_phd_thesis.pdf">pdf</a>
-  </p>
+  <div class="pub">
+    <div class="title">Architecture-Agnostic Invariances for Deep Learning</div>
+    <div><u>Jinwoo&nbsp;Kim</u></div>
+    <div>Ph.D. Dissertation 2026 <span style="color: red;">KAIST CoE Best Dissertation Award</span></div>
+    <div><a href="data/jinwookim_phd_thesis.pdf">pdf</a></div>
+  </div>
 
-  <p>
-    <b>Flock: A Knowledge Graph Foundation Model via Learning on Random Walks</b><br>
-    <u>Jinwoo Kim</u>*, Xingyue Huang*, Krzysztof Olejniczak, Kyungbin Min, Michael Bronstein,<br>
-    Seunghoon Hong, İsmail İlkan Ceylan<br>
-    ICLR, 2026<br>
-    <a href="https://arxiv.org/abs/2510.01510">paper</a> <a href="https://github.com/jw9730/flock">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Flock: A Knowledge Graph Foundation Model via Learning on Random Walks</div>
+    <div>
+      <u>Jinwoo&nbsp;Kim</u>*, Xingyue&nbsp;Huang*, Krzysztof&nbsp;Olejniczak, Kyungbin&nbsp;Min, Michael&nbsp;Bronstein,
+      Seunghoon&nbsp;Hong, İsmail&nbsp;İlkan&nbsp;Ceylan
+    </div>
+    <div>ICLR 2026</div>
+    <div><a href="https://arxiv.org/abs/2510.01510">paper</a> <a href="https://github.com/jw9730/flock">code</a></div>
+  </div>
 
-  <p>
-    <b>Sequence Modeling with Spectral Mean Flows</b><br>
-    <u>Jinwoo Kim</u>, Max Beier, Petar Bevanda, Nayun Kim, Seunghoon Hong<br>
-    NeurIPS, 2025<br>
-    <a href="https://arxiv.org/abs/2510.15366">paper</a> <a
-      href="https://github.com/jw9730/spectral-mean-flow">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Sequence Modeling with Spectral Mean Flows</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Max&nbsp;Beier, Petar&nbsp;Bevanda, Nayun&nbsp;Kim, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2025</div>
+    <div>
+      <a href="https://arxiv.org/abs/2510.15366">paper</a> <a
+        href="https://github.com/jw9730/spectral-mean-flow">code</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Revisiting Random Walks for Learning on Graphs</b><br>
-    <u>Jinwoo Kim</u>, Olga Zaghen*, Ayhan Suleymanzade*, Youngmin Ryou, Seunghoon Hong<br>
-    ICLR, 2025. <span style="color: red;">Spotlight (380/11672=3.26%)</span><br>
-    ICML GRaM Workshop, 2024. <span style="color: #FA8128;">ELLIS Mobility Grant</span><br>
-    <a href="https://arxiv.org/abs/2407.01214">paper</a> <a href="https://github.com/jw9730/random-walk">code</a>
-    <a href="https://drive.google.com/file/d/16Xqs1afU-o6UqcLyNBs1zfHb3lfsKUSO/view?usp=sharing">poster</a>
-  </p>
+  <div class="pub">
+    <div class="title">Revisiting Random Walks for Learning on Graphs</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Olga&nbsp;Zaghen*, Ayhan&nbsp;Suleymanzade*, Youngmin&nbsp;Ryou, Seunghoon&nbsp;Hong</div>
+    <div>ICLR 2025 <span style="color: red;">Spotlight (380/11672=3.26%)</span> /
+      ICML GRaM Workshop 2024 <span style="color: #FA8128;">ELLIS Mobility Grant</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2407.01214">paper</a> <a href="https://github.com/jw9730/random-walk">code</a>
+      <a href="https://drive.google.com/file/d/16Xqs1afU-o6UqcLyNBs1zfHb3lfsKUSO/view?usp=sharing">poster</a>
+    </div>
+  </div>
 
-  <p>
-    <b>3D Denoisers are Good 2D Teachers: Molecular Pretraining via Denoising and Cross-Modal Distillation</b><br>
-    Sungjun Cho, Dae-Woong Jeong, Sung Moon Ko, <u>Jinwoo Kim</u>, Sehui Han, Seunghoon Hong, Honglak Lee, Moontae
-    Lee<br>
-    AAAI, 2025. <span style="color: red;">Oral</span><br>
-    <a href="https://arxiv.org/abs/2309.04062">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">3D Denoisers are Good 2D Teachers: Molecular Pretraining via Denoising and Cross-Modal Distillation</div>
+    <div>Sungjun&nbsp;Cho, Dae-Woong&nbsp;Jeong, Sung&nbsp;Moon&nbsp;Ko, <u>Jinwoo&nbsp;Kim</u>, Sehui&nbsp;Han, Seunghoon&nbsp;Hong, Honglak&nbsp;Lee, Moontae&nbsp;Lee</div>
+    <div>AAAI 2025 <span style="color: red;">Oral</span></div>
+    <div><a href="https://arxiv.org/abs/2309.04062">paper</a></div>
+  </div>
 
-  <p>
-    <b>Simulation-Free Training of Neural ODEs on Paired Data</b><br>
-    Semin Kim*, Jaehoon Yoo*, <u>Jinwoo Kim</u>, Yeonwoo Cha, Saehoon Kim, Seunghoon Hong<br>
-    NeurIPS, 2024<br>
-    <a href="https://arxiv.org/abs/2410.22918">paper</a> <a
-      href="https://github.com/seminkim/simulation-free-node">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Simulation-Free Training of Neural ODEs on Paired Data</div>
+    <div>Semin&nbsp;Kim*, Jaehoon&nbsp;Yoo*, <u>Jinwoo&nbsp;Kim</u>, Yeonwoo&nbsp;Cha, Saehoon&nbsp;Kim, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2024</div>
+    <div>
+      <a href="https://arxiv.org/abs/2410.22918">paper</a> <a
+        href="https://github.com/seminkim/simulation-free-node">code</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Learning Symmetrization for Equivariance with Orbit Distance Minimization</b><br>
-    Tien Dat Nguyen*, <u>Jinwoo Kim</u>*, Hongseok Yang, Seunghoon Hong<br>
-    NeurIPS NeurReps Workshop, 2023<br>
-    <a href="https://arxiv.org/abs/2311.07143">paper</a> <a
-      href="https://github.com/tiendatnguyen-vision/Orbit-symmetrize">code</a> <a
-      href="https://drive.google.com/file/d/1EgGdGV_ZgQSLbuphk3NtK5FPGxAlp8au/view?usp=drive_link">poster</a>
-  </p>
+  <div class="pub">
+    <div class="title">Learning Symmetrization for Equivariance with Orbit Distance Minimization</div>
+    <div>Tien&nbsp;Dat&nbsp;Nguyen*, <u>Jinwoo&nbsp;Kim</u>*, Hongseok&nbsp;Yang, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS NeurReps Workshop 2023</div>
+    <div>
+      <a href="https://arxiv.org/abs/2311.07143">paper</a> <a
+        href="https://github.com/tiendatnguyen-vision/Orbit-symmetrize">code</a> <a
+        href="https://drive.google.com/file/d/1EgGdGV_ZgQSLbuphk3NtK5FPGxAlp8au/view?usp=drive_link">poster</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance</b><br>
-    <u>Jinwoo Kim</u>, Tien Dat Nguyen, Ayhan Suleymanzade, Hyeokjun An, Seunghoon Hong<br>
-    NeurIPS, 2023. <span style="color: red;">Spotlight (378/12345=3.06%)</span><br>
-    <a href="https://arxiv.org/abs/2306.02866">paper</a> <a href="https://github.com/jw9730/lps">code</a> <a
-      href="https://drive.google.com/file/d/1sKQMzrJp79dYAx9Gqv1a63ltwrF6fRUG/view?usp=drive_link">poster</a> <a
-      href="https://docs.google.com/presentation/d/1BpfzPXZepUKU4aNNCAf0-X5-dyy49wQPNKKkPCXiJoM/edit?usp=drive_link">slides</a>
-    <a
-      href="https://docs.google.com/presentation/d/15jGNVcWjxP5H-lXHJvpYd6yRw3fRcpbHYB0Ob6DMFIs/edit?usp=drive_link">extended
-      slides</a>
-  </p>
+  <div class="pub">
+    <div class="title">Learning Probabilistic Symmetrization for Architecture Agnostic Equivariance</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Tien&nbsp;Dat&nbsp;Nguyen, Ayhan&nbsp;Suleymanzade, Hyeokjun&nbsp;An, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2023 <span style="color: red;">Spotlight (378/12345=3.06%)</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2306.02866">paper</a> <a href="https://github.com/jw9730/lps">code</a> <a
+        href="https://drive.google.com/file/d/1sKQMzrJp79dYAx9Gqv1a63ltwrF6fRUG/view?usp=drive_link">poster</a> <a
+        href="https://docs.google.com/presentation/d/1BpfzPXZepUKU4aNNCAf0-X5-dyy49wQPNKKkPCXiJoM/edit?usp=drive_link">slides</a>
+      <a
+        href="https://docs.google.com/presentation/d/15jGNVcWjxP5H-lXHJvpYd6yRw3fRcpbHYB0Ob6DMFIs/edit?usp=drive_link">extended
+        slides</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching</b><br>
-    Donggyun Kim, <u>Jinwoo Kim</u>, Seongwoong Cho, Chong Luo, Seunghoon Hong<br>
-    ICLR, 2023. <span style="color: red;">Outstanding Paper Award (4/4955=0.08%)</span><br>
-    <span style="color: #FA8128;">Silver Prize, Samsung Humantech Paper Award, 2023</span><br>
-    <a href="https://arxiv.org/abs/2303.14969">paper</a> <a
-      href="https://github.com/GitGyun/visual_token_matching">code</a>
-  </p>
+  <div class="pub">
+    <div class="title">Universal Few-shot Learning of Dense Prediction Tasks with Visual Token Matching</div>
+    <div>Donggyun&nbsp;Kim, <u>Jinwoo&nbsp;Kim</u>, Seongwoong&nbsp;Cho, Chong&nbsp;Luo, Seunghoon&nbsp;Hong</div>
+    <div>ICLR 2023 <span style="color: red;">Outstanding Paper Award (4/4955=0.08%)</span> /
+      <span style="color: #FA8128;">Silver Prize, Samsung Humantech Paper Award 2023</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2303.14969">paper</a> <a
+        href="https://github.com/GitGyun/visual_token_matching">code</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Pure Transformers are Powerful Graph Learners</b><br>
-    <u>Jinwoo Kim</u>, Tien Dat Nguyen, Seonwoo Min, Sungjun Cho, Moontae Lee, Honglak Lee<sup>&dagger;</sup>,<br>
-    Seunghoon Hong<sup>&dagger;</sup><br>
-    NeurIPS, 2022<br>
-    <a href="https://arxiv.org/abs/2207.02505">paper</a> <a href="https://github.com/jw9730/tokengt">code</a> <a
-      href="https://www.youtube.com/watch?v=TAKyjYoimd0">talk</a> <a
-      href="https://drive.google.com/file/d/1RhvZVH7qIc78DJp5MOYsjZnt9wwujR0b/view?usp=drive_link">poster</a> <a
-      href="https://docs.google.com/presentation/d/1v2ieNHQXqAxwDXFRU9U8GndsAeoXRrpmTwrFT1gOVXk/edit?usp=drive_link">slides</a>
-    <a
-      href="https://docs.google.com/presentation/d/1Evvro8fmjhe3GwaZarpfQz0QYuwsI-JkG2xhYqdNR_Q/edit?usp=drive_link">extended
-      slides</a>
-  </p>
+  <div class="pub">
+    <div class="title">Pure Transformers are Powerful Graph Learners</div>
+    <div>
+      <u>Jinwoo&nbsp;Kim</u>, Tien&nbsp;Dat&nbsp;Nguyen, Seonwoo&nbsp;Min, Sungjun&nbsp;Cho, Moontae&nbsp;Lee, Honglak&nbsp;Lee<sup>&dagger;</sup>,
+      Seunghoon&nbsp;Hong<sup>&dagger;</sup>
+    </div>
+    <div>NeurIPS 2022</div>
+    <div>
+      <a href="https://arxiv.org/abs/2207.02505">paper</a> <a href="https://github.com/jw9730/tokengt">code</a> <a
+        href="https://www.youtube.com/watch?v=TAKyjYoimd0">talk</a> <a
+        href="https://drive.google.com/file/d/1RhvZVH7qIc78DJp5MOYsjZnt9wwujR0b/view?usp=drive_link">poster</a> <a
+        href="https://docs.google.com/presentation/d/1v2ieNHQXqAxwDXFRU9U8GndsAeoXRrpmTwrFT1gOVXk/edit?usp=drive_link">slides</a>
+      <a
+        href="https://docs.google.com/presentation/d/1Evvro8fmjhe3GwaZarpfQz0QYuwsI-JkG2xhYqdNR_Q/edit?usp=drive_link">extended
+        slides</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Transformers Meet Stochastic Block Models: Attention with Data-Adaptive Sparsity and Cost</b><br>
-    Sungjun Cho, Seonwoo Min, <u>Jinwoo Kim</u>, Moontae Lee, Honglak Lee, Seunghoon Hong<br>
-    NeurIPS, 2022<br>
-    <a href="https://arxiv.org/abs/2210.15541">paper</a> <a href="https://github.com/sc782/SBM-Transformer">code</a>
-    <a href="https://drive.google.com/file/d/1Q2TiCd1RfpsO3ETrKcOoZs1T9LoxboH0/view?usp=drive_link">poster</a>
-  </p>
+  <div class="pub">
+    <div class="title">Transformers Meet Stochastic Block Models: Attention with Data-Adaptive Sparsity and Cost</div>
+    <div>Sungjun&nbsp;Cho, Seonwoo&nbsp;Min, <u>Jinwoo&nbsp;Kim</u>, Moontae&nbsp;Lee, Honglak&nbsp;Lee, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2022</div>
+    <div>
+      <a href="https://arxiv.org/abs/2210.15541">paper</a> <a href="https://github.com/sc782/SBM-Transformer">code</a>
+      <a href="https://drive.google.com/file/d/1Q2TiCd1RfpsO3ETrKcOoZs1T9LoxboH0/view?usp=drive_link">poster</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Equivariant Hypergraph Neural Networks</b><br>
-    <u>Jinwoo Kim</u>, Saeyoon Oh, Sungjun Cho, Seunghoon Hong<br>
-    ECCV, 2022<br>
-    <a href="https://arxiv.org/abs/2208.10428">paper</a> <a href="https://github.com/jw9730/ehnn">code</a> <a
-      href="https://drive.google.com/file/d/1zle2VZnq_UWGh6dIF7tJJlxOWmbFXkwP/view?usp=drive_link">poster</a> <a
-      href="https://docs.google.com/presentation/d/1ld9uXD5wm4y5akehKtfegswnvlTVy3bM6Vl4Jhqm79E/edit?usp=drive_link">slides</a>
-  </p>
+  <div class="pub">
+    <div class="title">Equivariant Hypergraph Neural Networks</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Saeyoon&nbsp;Oh, Sungjun&nbsp;Cho, Seunghoon&nbsp;Hong</div>
+    <div>ECCV 2022</div>
+    <div>
+      <a href="https://arxiv.org/abs/2208.10428">paper</a> <a href="https://github.com/jw9730/ehnn">code</a> <a
+        href="https://drive.google.com/file/d/1zle2VZnq_UWGh6dIF7tJJlxOWmbFXkwP/view?usp=drive_link">poster</a> <a
+        href="https://docs.google.com/presentation/d/1ld9uXD5wm4y5akehKtfegswnvlTVy3bM6Vl4Jhqm79E/edit?usp=drive_link">slides</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs</b><br>
-    <u>Jinwoo Kim</u>, Saeyoon Oh, Seunghoon Hong<br>
-    NeurIPS, 2021<br>
-    <span style="color: #FA8128;">Qualcomm Innovation Fellowship Korea, 2021</span><br>
-    <a href="https://arxiv.org/abs/2110.14416">paper</a> <a href="https://github.com/jw9730/hot">code</a> <a
-      href="https://drive.google.com/file/d/1UQuxUoqxbXuv0gy4CZWN9JKHNkba_FCZ/view?usp=drive_link">poster</a> <a
-      href="https://docs.google.com/presentation/d/1wwZspiVFLpYIdOaU_Zo2EqokDqM3tDa7HbewIWBf2J4/edit?usp=drive_link">slides</a>
-  </p>
+  <div class="pub">
+    <div class="title">Transformers Generalize DeepSets and Can be Extended to Graphs and Hypergraphs</div>
+    <div><u>Jinwoo&nbsp;Kim</u>, Saeyoon&nbsp;Oh, Seunghoon&nbsp;Hong</div>
+    <div>NeurIPS 2021 / <span style="color: #FA8128;">Qualcomm Innovation Fellowship Korea 2021</span></div>
+    <div>
+      <a href="https://arxiv.org/abs/2110.14416">paper</a> <a href="https://github.com/jw9730/hot">code</a> <a
+        href="https://drive.google.com/file/d/1UQuxUoqxbXuv0gy4CZWN9JKHNkba_FCZ/view?usp=drive_link">poster</a> <a
+        href="https://docs.google.com/presentation/d/1wwZspiVFLpYIdOaU_Zo2EqokDqM3tDa7HbewIWBf2J4/edit?usp=drive_link">slides</a>
+    </div>
+  </div>
 
-  <p>
-    <b>SetVAE: Learning Hierarchical Composition for Generative Modeling of Set-Structured Data</b><br>
-    <u>Jinwoo Kim</u>*, Jaehoon Yoo*, Juho Lee, Seunghoon Hong<br>
-    CVPR, 2021<br>
-    <a href="https://arxiv.org/abs/2103.15619">paper</a> <a href="https://github.com/jw9730/setvae">code</a> <a
-      href="https://vllab.kaist.ac.kr/viewer/project/kim2021setvae">project page</a> <a
-      href="https://drive.google.com/file/d/1kA28QdzS5X5ifn4JnAJ60t4nlZ5scZLb/view?usp=drive_link">poster</a> <a
-      href="https://docs.google.com/presentation/d/1Hr5IUgcHc2_apnSZXWjIfSjQiJuxvZEUjlbPW7fWlbk/edit?usp=drive_link">slides</a>
-  </p>
+  <div class="pub">
+    <div class="title">SetVAE: Learning Hierarchical Composition for Generative Modeling of Set-Structured Data</div>
+    <div><u>Jinwoo&nbsp;Kim</u>*, Jaehoon&nbsp;Yoo*, Juho&nbsp;Lee, Seunghoon&nbsp;Hong</div>
+    <div>CVPR 2021</div>
+    <div>
+      <a href="https://arxiv.org/abs/2103.15619">paper</a> <a href="https://github.com/jw9730/setvae">code</a> <a
+        href="https://vllab.kaist.ac.kr/viewer/project/kim2021setvae">project page</a> <a
+        href="https://drive.google.com/file/d/1kA28QdzS5X5ifn4JnAJ60t4nlZ5scZLb/view?usp=drive_link">poster</a> <a
+        href="https://docs.google.com/presentation/d/1Hr5IUgcHc2_apnSZXWjIfSjQiJuxvZEUjlbPW7fWlbk/edit?usp=drive_link">slides</a>
+    </div>
+  </div>
 
-  <p>
-    <b>Spontaneous Retinal Waves Can Generate Long-Range Horizontal Connectivity in Visual Cortex</b><br>
-    <u>Jinwoo Kim</u>*, Min Song*, Jaeson Jang, Se-Bum Paik<br>
-    The Journal of Neuroscience 40(34), 2020<br>
-    <a href="https://www.jneurosci.org/content/40/34/6584">paper</a>
-  </p>
+  <div class="pub">
+    <div class="title">Spontaneous Retinal Waves Can Generate Long-Range Horizontal Connectivity in Visual Cortex</div>
+    <div><u>Jinwoo&nbsp;Kim</u>*, Min&nbsp;Song*, Jaeson&nbsp;Jang, Se-Bum&nbsp;Paik</div>
+    <div>The Journal of Neuroscience 40(34) 2020</div>
+    <div><a href="https://www.jneurosci.org/content/40/34/6584">paper</a></div>
+  </div>
 
 </body>
 
