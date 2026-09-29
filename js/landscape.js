@@ -4,7 +4,7 @@
  * and a sky that drifts through the day.
  *
  * Markup:
- *   <canvas id="landscape" width="188" height="100"></canvas>
+ *   <canvas id="landscape" width="205" height="100"></canvas>
  *   optional buttons anywhere on the page:
  *     <button data-mh-hour="12.5">noon</button>  skim the clock to 12:30
  *     <button data-mh-rain>rain</button>          start / stop a downpour
@@ -27,7 +27,7 @@
   if (!canvas || !canvas.getContext) return;
 
   // ------------------------------------------------------------------ setup
-  const W = 188, H = 100, N = W * H;
+  const W = 205, H = 100, N = W * H;
   const HZ = 46;            // horizon row
   const SKY_TOP = 8;        // first sky row below the ceiling slab
   const F = 92;             // focal length in pixels
@@ -192,7 +192,7 @@
         const d = (x - c) / r;
         return d * d < 1 ? hgt * (1 - d * d) : 0;
       };
-      mtnH[0][x] = Math.max(mtnH[0][x], isl(156, 6, 2.6), isl(180, 5, 1.8));
+      mtnH[0][x] = Math.max(mtnH[0][x], isl(156, 6, 2.6), isl(181, 5, 1.8), isl(196, 3, 1.1));
     }
   }
   // a radio mast on the mid ridge, with a red light
@@ -1180,7 +1180,7 @@
       const wind = ((1.2 * Math.sin(T * 1.1) + 0.5 * Math.sin(T * 2.7 + 1.3)) * gust - 1.0 * gust) * (1 + 0.8 * S)
         + S * (2.6 + 0.6 * Math.sin(T * 7.3));
       const fgK = (x, c) => [c[0] * L.fg[0], c[1] * L.fg[1], c[2] * L.fg[2]];
-      const px0 = 168;
+      const px0 = 183;
       const potRows = [[0, 8, POT_RIM], [1, 6, POT], [1, 6, POT], [1, 6, POT], [1, 6, POT], [2, 4, POT]];
       potRows.forEach(([o, w, c], k) => {
         const y = 80 + k;
